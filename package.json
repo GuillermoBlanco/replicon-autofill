@@ -1,0 +1,12 @@
+{
+  "name": "replicon-autofill",
+  "version": "1.0.0",
+  "description": "Chrome extension + bookmarklet to auto-fill Replicon timesheets (punches + distribution).",
+  "scripts": {
+    "build:bookmarklet": "node scripts/build-bookmarklet.js",
+    "lint": "eslint extension/ bookmarklet/"
+  },
+  "devDependencies": {
+    "terser": "^5.36.0"
+  }
+}

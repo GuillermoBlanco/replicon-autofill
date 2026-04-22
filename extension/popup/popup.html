@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Replicon Autofill</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <img src="../icons/icon48.png" alt="" width="24" height="24" />
+    <h1>Replicon Autofill</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>🕐 Punch Times</h2>
+      <div class="form-row">
+        <label for="in-time">IN</label>
+        <input type="text" id="in-time" placeholder="8:00 am" />
+      </div>
+      <div class="form-row">
+        <label for="out-time">OUT</label>
+        <input type="text" id="out-time" placeholder="4:00 pm" />
+      </div>
+      <button class="btn-primary" id="btn-fill-punches">Fill Punches</button>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>📋 Time Distribution</h2>
+      <div class="form-row">
+        <label for="project-code">Project</label>
+        <input type="text" id="project-code" placeholder="Project / task name…" />
+      </div>
+      <div class="form-row">
+        <label for="hours">Hrs/day</label>
+        <input type="text" id="hours" placeholder="8.00" style="width:60px" />
+      </div>
+      <button class="btn-primary" id="btn-fill-dist">Fill Distribution</button>
+    </section>
+
+    <hr />
+
+    <button class="btn-accent full-width" id="btn-fill-all">
+      🚀 Fill Punches + Distribution
+    </button>
+
+    <div id="status-bar"></div>
+  </main>
+
+  <footer>
+    <small>Opens on <strong>Replicon timesheet</strong> pages only.</small>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>
