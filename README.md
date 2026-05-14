@@ -14,6 +14,8 @@ Available as two delivery formats:
 
 ## Chrome Extension (recommended)
 
+<img width="466" height="235" alt="image" src="https://github.com/user-attachments/assets/07f06503-55f3-43ba-93b4-11842996cbb7" />
+
 ### Install (unpacked / developer mode)
 
 1. Open `chrome://extensions`
